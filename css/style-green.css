@@ -707,6 +707,28 @@ a:hover {
   height: .7rem;
   background-color: #24b67e;
 }
+.about-info p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.about-info .title-s {
+  font-weight: bold;
+  color: #24b67e;
+  vertical-align: top;
+}
+
+.about-info .profile-details {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5px; /* Adjust this value as needed for spacing */
+}
+
+.about-info .profile-details .line-1,
+.about-info .profile-details .line-2 {
+  display: block;
+}
+
 
 /*======================================
 //--//-->   SERVICES
