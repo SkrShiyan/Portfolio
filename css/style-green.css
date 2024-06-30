@@ -400,6 +400,13 @@ a:hover {
 /*======================================
 //--//-->   NAVBAR
 ======================================*/
+.navbar-b .navbar-brand img {
+  transition: all .5s ease-in-out;
+}
+
+.navbar-b.navbar-reduce .navbar-brand img {
+  content: url('img/logo2.png');
+}
 
 .navbar-b {
   transition: all .5s ease-in-out;
